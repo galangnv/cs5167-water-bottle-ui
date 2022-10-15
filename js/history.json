@@ -1,0 +1,18 @@
+{
+    "four_days_ago": {
+        "day": "Sat",
+        "drink_amount": 57
+    },
+    "three_days_ago": {
+        "day": "Sun",
+        "drink_amount": 73
+    },
+    "two_days_ago": {
+        "day": "Mon",
+        "drink_amount": 68
+    },
+    "one_day_ago": {
+        "day": "Tue",
+        "drink_amount": 30
+    }
+}

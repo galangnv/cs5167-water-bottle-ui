@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Water Bottle UI</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div class="everything">
+        <div class="header">
+            <p>Smart Water Bottle UI</p>
+            <p>Christian Galang</p>
+            <p>Press "s" to start simulation</p>
+        </div>
+        <div class="mock-image">
+            <img src="img/waterbottle.jpeg" alt="Water bottle" class="photo">
+        </div>
+        <div class="bottle-ui">
+            <div class="ui-section date">
+                <p class="date-text" id="date"></p>
+            </div>
+            <div class="ui-section time">
+                <p class="time-text" id="time"></p>
+            </div>
+            <div class="ui-section main">
+                <div class="circle_box">
+                    <div>
+                        <svg>
+                            <circle cx="100" cy="100" r="95" class="background-progress"/>
+                            <circle cx="100" cy="100" r="95" class="actual-progress" id="actual-progress"/>
+                        </svg>
+                        <span id="main-percent"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="ui-section info">
+                <p id="info-text"></p>
+            </div>
+            <div class="ui-section left-arrow-area" id="left-arrow-area" onclick="changeInfoLeft()">
+                <p><</p>
+            </div>
+            <div class="ui-section right-arrow-area" id="right-arrow-area" onclick="changeInfoRight()">
+                <p>></p>
+            </div>
+            <div class="ui-section history">
+                <div class="hist-card hist-card-1" id="hist-card-1" onclick="displayFourDaysAgo()">
+                    <p class="hist-card-percent" id="hist-card-percent-1"></p>
+                    <p id="hist-card-1-day"></p>
+                </div>
+                <div class="hist-card hist-card-2" id="hist-card-2" onclick="displayThreeDaysAgo()">
+                    <p class="hist-card-percent" id="hist-card-percent-2"></p>
+                    <p id="hist-card-2-day"></p>
+                </div>
+                <div class="hist-card hist-card-3" id="hist-card-3" onclick="displayTwoDaysAgo()">
+                    <p class="hist-card-percent" id="hist-card-percent-3"></p>
+                    <p id="hist-card-3-day"></p>
+                </div>
+                <div class="hist-card hist-card-4" id="hist-card-4" onclick="displayOneDayAgo()">
+                    <p class="hist-card-percent" id="hist-card-percent-4"></p>
+                    <p id="hist-card-4-day"></p>
+                </div>
+                <div class="hist-card hist-card-5" id="hist-card-5" onclick="displayToday()">
+                    <p class="hist-card-percent" id="hist-card-percent-5"></p>
+                    <p id="hist-card-5-day"></p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <p class="sim-table" id="sim-table"></p>
+        </div>
+    </div>
+</body>
+</html>

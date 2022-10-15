@@ -1,0 +1,56 @@
+[
+    {
+        "type": "start",
+        "time": "10/19/2022 08:01:00",
+        "water_level": 0,
+        "drink_amount": 0
+    },
+    {
+        "type": "fill",
+        "time": "10/19/2022 09:15:00",
+        "water_level": 32,
+        "drink_amount": 0
+    },
+    {
+        "type": "drink",
+        "time": "10/19/2022 10:00:00",
+        "water_level": 22,
+        "drink_amount": 10
+    },
+    {
+        "type": "drink",
+        "time": "10/19/2022 12:12:00",
+        "water_level": 8,
+        "drink_amount": 14
+    },
+    {
+        "type": "fill",
+        "time": "10/19/2022 12:15:00",
+        "water_level": 32,
+        "drink_amount": 0
+    },
+    {
+        "type": "drink",
+        "time": "10/19/2022 15:59:00",
+        "water_level": 17,
+        "drink_amount": 15
+    },
+    {
+        "type": "drink",
+        "time": "10/19/2022 18:30:00",
+        "water_level": 0,
+        "drink_amount": 17
+    },
+    {
+        "type": "fill",
+        "time": "10/19/2022 21:20:00",
+        "water_level": 32,
+        "drink_amount": 0
+    },
+    {
+        "type": "drink",
+        "time": "10/19/2022 21:21:00",
+        "water_level": 24,
+        "drink_amount": 8
+    }
+]
